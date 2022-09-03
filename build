@@ -1,0 +1,3 @@
+#!/bin/bash
+g++ -g main.cpp Server/server.cpp  Log/log.cpp  Timer/timer.cpp  Tool/tool.cpp ThreadPool/threadpool.cpp Mysql/connectpool.cpp  HTTP/http_serve.cpp HTTP/parser.cpp  -o  main -lpthread -lmysqlclient 
+./main 9006

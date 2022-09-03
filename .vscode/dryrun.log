@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/jack/桌面/myServer'
+make: Leaving directory '/home/jack/桌面/myServer'
+ 
+make: *** No targets.  Stop.
+
